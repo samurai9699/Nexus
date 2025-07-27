@@ -107,6 +107,9 @@ function createParticleBackground(canvasId, particleCount = 800, rotationSpeedX 
     
     window.addEventListener('resize', handleResize);
     
+    // Initial resize to set correct dimensions
+    handleResize();
+    
     return meshData;
 }
 
