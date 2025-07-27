@@ -118,6 +118,17 @@
             z-index: -1;
         }
         
+        #about-canvas,
+        #projects-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.6;
+        }
+        
         .hero-content {
             max-width: 700px;
             z-index: 2;
@@ -187,6 +198,8 @@
         /* Sections */
         section {
             padding: 100px 0;
+            position: relative;
+            overflow: hidden;
         }
         
         .section-title {
