@@ -1,0 +1,13 @@
+{
+  "name": "nexus-portfolio",
+  "version": "1.0.0",
+  "description": "A futuristic portfolio website with Three.js particle animations",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": ["portfolio", "three.js", "webgl", "particles"],
+  "author": "Nexus Developer",
+  "license": "MIT"
+}
